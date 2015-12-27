@@ -1,0 +1,2201 @@
+events = 
+{
+	[1] = 
+	{
+		type	=	"mission start",
+		t	=	23400,
+	}, -- end of [1]
+	[2] = 
+	{
+		type	=	"took control",
+		t	=	23400,
+	}, -- end of [2]
+	[3] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #177",
+		target	=	"Pilot #003",
+		t	=	23699.443,
+		initiatorMissionID	=	"248",
+		targetMissionID	=	"386",
+	}, -- end of [3]
+	[4] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #176",
+		target	=	"Pilot #003",
+		t	=	23699.562,
+		initiatorMissionID	=	"247",
+		targetMissionID	=	"386",
+	}, -- end of [4]
+	[5] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #175",
+		target	=	"Pilot #003",
+		t	=	23699.594,
+		initiatorMissionID	=	"246",
+		targetMissionID	=	"386",
+	}, -- end of [5]
+	[6] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #174",
+		target	=	"Pilot #003",
+		t	=	23699.892,
+		initiatorMissionID	=	"245",
+		targetMissionID	=	"386",
+	}, -- end of [6]
+	[7] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #176",
+		t	=	23700.159,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"247",
+	}, -- end of [7]
+	[8] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #177",
+		t	=	23700.348,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"248",
+	}, -- end of [8]
+	[9] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #175",
+		t	=	23700.491,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"246",
+	}, -- end of [9]
+	[10] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #174",
+		t	=	23700.804,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"245",
+	}, -- end of [10]
+	[11] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #36",
+		target	=	"Pilot #003",
+		t	=	23706.331,
+		initiatorMissionID	=	"36",
+		targetMissionID	=	"386",
+	}, -- end of [11]
+	[12] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #34",
+		target	=	"Pilot #003",
+		t	=	23706.903,
+		initiatorMissionID	=	"34",
+		targetMissionID	=	"386",
+	}, -- end of [12]
+	[13] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #35",
+		target	=	"Pilot #003",
+		t	=	23707.095,
+		initiatorMissionID	=	"35",
+		targetMissionID	=	"386",
+	}, -- end of [13]
+	[14] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #36",
+		t	=	23707.226,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"36",
+	}, -- end of [14]
+	[15] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #33",
+		target	=	"Pilot #003",
+		t	=	23707.272,
+		initiatorMissionID	=	"33",
+		targetMissionID	=	"386",
+	}, -- end of [15]
+	[16] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #35",
+		t	=	23707.997,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"35",
+	}, -- end of [16]
+	[17] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #34",
+		t	=	23708.38,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"34",
+	}, -- end of [17]
+	[18] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #33",
+		t	=	23708.796,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"33",
+	}, -- end of [18]
+	[19] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #36",
+		target	=	"Pilot #003",
+		t	=	23710.196,
+		initiatorMissionID	=	"36",
+		targetMissionID	=	"386",
+	}, -- end of [19]
+	[20] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #35",
+		target	=	"Pilot #003",
+		t	=	23711.044,
+		initiatorMissionID	=	"35",
+		targetMissionID	=	"386",
+	}, -- end of [20]
+	[21] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #36",
+		t	=	23711.1,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"36",
+	}, -- end of [21]
+	[22] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #34",
+		target	=	"Pilot #003",
+		t	=	23711.429,
+		initiatorMissionID	=	"34",
+		targetMissionID	=	"386",
+	}, -- end of [22]
+	[23] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #35",
+		t	=	23711.943,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"35",
+	}, -- end of [23]
+	[24] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #33",
+		target	=	"Pilot #003",
+		t	=	23712.248,
+		initiatorMissionID	=	"33",
+		targetMissionID	=	"386",
+	}, -- end of [24]
+	[25] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #34",
+		t	=	23712.324,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"34",
+	}, -- end of [25]
+	[26] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #33",
+		t	=	23713.142,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"33",
+	}, -- end of [26]
+	[27] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #36",
+		target	=	"Pilot #003",
+		t	=	23735.858,
+		initiatorMissionID	=	"36",
+		targetMissionID	=	"386",
+	}, -- end of [27]
+	[28] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #35",
+		target	=	"Pilot #003",
+		t	=	23736.179,
+		initiatorMissionID	=	"35",
+		targetMissionID	=	"386",
+	}, -- end of [28]
+	[29] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #33",
+		target	=	"Pilot #003",
+		t	=	23736.212,
+		initiatorMissionID	=	"33",
+		targetMissionID	=	"386",
+	}, -- end of [29]
+	[30] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #36",
+		t	=	23736.756,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"36",
+	}, -- end of [30]
+	[31] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #35",
+		t	=	23737.076,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"35",
+	}, -- end of [31]
+	[32] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #33",
+		t	=	23737.129,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"33",
+	}, -- end of [32]
+	[33] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #34",
+		target	=	"Pilot #003",
+		t	=	23737.59,
+		initiatorMissionID	=	"34",
+		targetMissionID	=	"386",
+	}, -- end of [33]
+	[34] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #34",
+		t	=	23738.483,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"34",
+	}, -- end of [34]
+	[35] = 
+	{
+		type	=	"shot",
+		initiator	=	"Pilot #003",
+		t	=	23948.395,
+		weapon	=	"AGM-65D Maverick",
+		initiatorMissionID	=	"386",
+	}, -- end of [35]
+	[36] = 
+	{
+		type	=	"hit",
+		weapon	=	"AGM-65D Maverick",
+		initiator	=	"Pilot #003",
+		target	=	"Unit #160",
+		t	=	23994.79,
+		initiatorMissionID	=	"386",
+		targetMissionID	=	"274",
+	}, -- end of [36]
+	[37] = 
+	{
+		type	=	"dead",
+		t	=	23994.79,
+		initiatorMissionID	=	"274",
+		initiator	=	"Unit #160",
+	}, -- end of [37]
+	[38] = 
+	{
+		type	=	"hit",
+		weapon	=	"AGM-65D Maverick",
+		initiator	=	"Pilot #003",
+		target	=	"Unit #178",
+		t	=	23994.79,
+		initiatorMissionID	=	"386",
+		targetMissionID	=	"286",
+	}, -- end of [38]
+	[39] = 
+	{
+		type	=	"hit",
+		weapon	=	"AGM-65D Maverick",
+		initiator	=	"Pilot #003",
+		target	=	"Unit #179",
+		t	=	23994.79,
+		initiatorMissionID	=	"386",
+		targetMissionID	=	"287",
+	}, -- end of [39]
+	[40] = 
+	{
+		type	=	"hit",
+		weapon	=	"AGM-65D Maverick",
+		initiator	=	"Pilot #003",
+		target	=	"Unit #180",
+		t	=	23994.79,
+		initiatorMissionID	=	"386",
+		targetMissionID	=	"288",
+	}, -- end of [40]
+	[41] = 
+	{
+		type	=	"hit",
+		weapon	=	"AGM-65D Maverick",
+		initiator	=	"Pilot #003",
+		target	=	"Unit #183",
+		t	=	23994.79,
+		initiatorMissionID	=	"386",
+		targetMissionID	=	"291",
+	}, -- end of [41]
+	[42] = 
+	{
+		type	=	"hit",
+		weapon	=	"AGM-65D Maverick",
+		initiator	=	"Pilot #003",
+		target	=	"Unit #170",
+		t	=	23994.79,
+		initiatorMissionID	=	"386",
+		targetMissionID	=	"284",
+	}, -- end of [42]
+	[43] = 
+	{
+		type	=	"hit",
+		weapon	=	"AGM-65D Maverick",
+		initiator	=	"Pilot #003",
+		target	=	"Unit #182",
+		t	=	23994.79,
+		initiatorMissionID	=	"386",
+		targetMissionID	=	"290",
+	}, -- end of [43]
+	[44] = 
+	{
+		type	=	"hit",
+		weapon	=	"AGM-65D Maverick",
+		initiator	=	"Pilot #003",
+		target	=	"Unit #171",
+		t	=	23994.79,
+		initiatorMissionID	=	"386",
+		targetMissionID	=	"285",
+	}, -- end of [44]
+	[45] = 
+	{
+		type	=	"hit",
+		weapon	=	"AGM-65D Maverick",
+		initiator	=	"Pilot #003",
+		target	=	"Unit #181",
+		t	=	23994.79,
+		initiatorMissionID	=	"386",
+		targetMissionID	=	"289",
+	}, -- end of [45]
+	[46] = 
+	{
+		type	=	"dead",
+		t	=	23996.792,
+		initiatorMissionID	=	"291",
+		initiator	=	"Unit #183",
+	}, -- end of [46]
+	[47] = 
+	{
+		type	=	"dead",
+		t	=	23996.805,
+		initiatorMissionID	=	"286",
+		initiator	=	"Unit #178",
+	}, -- end of [47]
+	[48] = 
+	{
+		type	=	"dead",
+		t	=	23996.821,
+		initiatorMissionID	=	"289",
+		initiator	=	"Unit #181",
+	}, -- end of [48]
+	[49] = 
+	{
+		type	=	"dead",
+		t	=	23996.828,
+		initiatorMissionID	=	"285",
+		initiator	=	"Unit #171",
+	}, -- end of [49]
+	[50] = 
+	{
+		type	=	"dead",
+		t	=	23996.844,
+		initiatorMissionID	=	"290",
+		initiator	=	"Unit #182",
+	}, -- end of [50]
+	[51] = 
+	{
+		type	=	"dead",
+		t	=	23996.845,
+		initiatorMissionID	=	"288",
+		initiator	=	"Unit #180",
+	}, -- end of [51]
+	[52] = 
+	{
+		type	=	"dead",
+		t	=	23996.851,
+		initiatorMissionID	=	"287",
+		initiator	=	"Unit #179",
+	}, -- end of [52]
+	[53] = 
+	{
+		type	=	"dead",
+		t	=	23996.854,
+		initiatorMissionID	=	"284",
+		initiator	=	"Unit #170",
+	}, -- end of [53]
+	[54] = 
+	{
+		type	=	"shot",
+		initiator	=	"Pilot #003",
+		t	=	24032.383,
+		weapon	=	"AGM-65D Maverick",
+		initiatorMissionID	=	"386",
+	}, -- end of [54]
+	[55] = 
+	{
+		type	=	"hit",
+		weapon	=	"AGM-65D Maverick",
+		initiator	=	"Pilot #003",
+		target	=	"Unit #147",
+		t	=	24070.052,
+		initiatorMissionID	=	"386",
+		targetMissionID	=	"261",
+	}, -- end of [55]
+	[56] = 
+	{
+		type	=	"dead",
+		t	=	24070.052,
+		initiatorMissionID	=	"261",
+		initiator	=	"Unit #147",
+	}, -- end of [56]
+	[57] = 
+	{
+		type	=	"hit",
+		weapon	=	"AGM-65D Maverick",
+		initiator	=	"Pilot #003",
+		target	=	"Unit #153",
+		t	=	24070.052,
+		initiatorMissionID	=	"386",
+		targetMissionID	=	"267",
+	}, -- end of [57]
+	[58] = 
+	{
+		type	=	"hit",
+		weapon	=	"AGM-65D Maverick",
+		initiator	=	"Pilot #003",
+		target	=	"Unit #148",
+		t	=	24070.052,
+		initiatorMissionID	=	"386",
+		targetMissionID	=	"262",
+	}, -- end of [58]
+	[59] = 
+	{
+		type	=	"hit",
+		weapon	=	"AGM-65D Maverick",
+		initiator	=	"Pilot #003",
+		target	=	"Unit #149",
+		t	=	24070.052,
+		initiatorMissionID	=	"386",
+		targetMissionID	=	"263",
+	}, -- end of [59]
+	[60] = 
+	{
+		type	=	"hit",
+		weapon	=	"AGM-65D Maverick",
+		initiator	=	"Pilot #003",
+		target	=	"Unit #150",
+		t	=	24070.052,
+		initiatorMissionID	=	"386",
+		targetMissionID	=	"264",
+	}, -- end of [60]
+	[61] = 
+	{
+		type	=	"hit",
+		weapon	=	"AGM-65D Maverick",
+		initiator	=	"Pilot #003",
+		target	=	"Unit #151",
+		t	=	24070.052,
+		initiatorMissionID	=	"386",
+		targetMissionID	=	"265",
+	}, -- end of [61]
+	[62] = 
+	{
+		type	=	"hit",
+		weapon	=	"AGM-65D Maverick",
+		initiator	=	"Pilot #003",
+		target	=	"Unit #152",
+		t	=	24070.052,
+		initiatorMissionID	=	"386",
+		targetMissionID	=	"266",
+	}, -- end of [62]
+	[63] = 
+	{
+		type	=	"dead",
+		t	=	24072.065,
+		initiatorMissionID	=	"262",
+		initiator	=	"Unit #148",
+	}, -- end of [63]
+	[64] = 
+	{
+		type	=	"dead",
+		t	=	24072.087,
+		initiatorMissionID	=	"264",
+		initiator	=	"Unit #150",
+	}, -- end of [64]
+	[65] = 
+	{
+		type	=	"dead",
+		t	=	24072.092,
+		initiatorMissionID	=	"265",
+		initiator	=	"Unit #151",
+	}, -- end of [65]
+	[66] = 
+	{
+		type	=	"dead",
+		t	=	24072.099,
+		initiatorMissionID	=	"263",
+		initiator	=	"Unit #149",
+	}, -- end of [66]
+	[67] = 
+	{
+		type	=	"dead",
+		t	=	24072.115,
+		initiatorMissionID	=	"266",
+		initiator	=	"Unit #152",
+	}, -- end of [67]
+	[68] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #36",
+		target	=	"Pilot #003",
+		t	=	24096.512,
+		initiatorMissionID	=	"36",
+		targetMissionID	=	"386",
+	}, -- end of [68]
+	[69] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #35",
+		target	=	"Pilot #003",
+		t	=	24096.821,
+		initiatorMissionID	=	"35",
+		targetMissionID	=	"386",
+	}, -- end of [69]
+	[70] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #33",
+		target	=	"Pilot #003",
+		t	=	24097.002,
+		initiatorMissionID	=	"33",
+		targetMissionID	=	"386",
+	}, -- end of [70]
+	[71] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #34",
+		target	=	"Pilot #003",
+		t	=	24097.325,
+		initiatorMissionID	=	"34",
+		targetMissionID	=	"386",
+	}, -- end of [71]
+	[72] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #36",
+		t	=	24097.41,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"36",
+	}, -- end of [72]
+	[73] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #35",
+		t	=	24097.718,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"35",
+	}, -- end of [73]
+	[74] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #33",
+		t	=	24097.906,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"33",
+	}, -- end of [74]
+	[75] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #34",
+		t	=	24098.23,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"34",
+	}, -- end of [75]
+	[76] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #36",
+		target	=	"Pilot #003",
+		t	=	24102.059,
+		initiatorMissionID	=	"36",
+		targetMissionID	=	"386",
+	}, -- end of [76]
+	[77] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #33",
+		target	=	"Pilot #003",
+		t	=	24102.311,
+		initiatorMissionID	=	"33",
+		targetMissionID	=	"386",
+	}, -- end of [77]
+	[78] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #35",
+		target	=	"Pilot #003",
+		t	=	24102.681,
+		initiatorMissionID	=	"35",
+		targetMissionID	=	"386",
+	}, -- end of [78]
+	[79] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #36",
+		t	=	24102.973,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"36",
+	}, -- end of [79]
+	[80] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #33",
+		t	=	24103.213,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"33",
+	}, -- end of [80]
+	[81] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #34",
+		target	=	"Pilot #003",
+		t	=	24103.555,
+		initiatorMissionID	=	"34",
+		targetMissionID	=	"386",
+	}, -- end of [81]
+	[82] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #35",
+		t	=	24104.179,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"35",
+	}, -- end of [82]
+	[83] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #34",
+		t	=	24105.059,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"34",
+	}, -- end of [83]
+	[84] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #36",
+		target	=	"Pilot #003",
+		t	=	24112.837,
+		initiatorMissionID	=	"36",
+		targetMissionID	=	"386",
+	}, -- end of [84]
+	[85] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #35",
+		target	=	"Pilot #003",
+		t	=	24113.194,
+		initiatorMissionID	=	"35",
+		targetMissionID	=	"386",
+	}, -- end of [85]
+	[86] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #34",
+		target	=	"Pilot #003",
+		t	=	24113.458,
+		initiatorMissionID	=	"34",
+		targetMissionID	=	"386",
+	}, -- end of [86]
+	[87] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #36",
+		t	=	24113.741,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"36",
+	}, -- end of [87]
+	[88] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #33",
+		target	=	"Pilot #003",
+		t	=	24113.902,
+		initiatorMissionID	=	"33",
+		targetMissionID	=	"386",
+	}, -- end of [88]
+	[89] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #35",
+		t	=	24114.099,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"35",
+	}, -- end of [89]
+	[90] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #33",
+		t	=	24114.798,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"33",
+	}, -- end of [90]
+	[91] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #34",
+		t	=	24114.955,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"34",
+	}, -- end of [91]
+	[92] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #36",
+		target	=	"Pilot #003",
+		t	=	24116.695,
+		initiatorMissionID	=	"36",
+		targetMissionID	=	"386",
+	}, -- end of [92]
+	[93] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #35",
+		target	=	"Pilot #003",
+		t	=	24117.268,
+		initiatorMissionID	=	"35",
+		targetMissionID	=	"386",
+	}, -- end of [93]
+	[94] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #36",
+		t	=	24117.589,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"36",
+	}, -- end of [94]
+	[95] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #33",
+		target	=	"Pilot #003",
+		t	=	24118.052,
+		initiatorMissionID	=	"33",
+		targetMissionID	=	"386",
+	}, -- end of [95]
+	[96] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #35",
+		t	=	24118.182,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"35",
+	}, -- end of [96]
+	[97] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #34",
+		target	=	"Pilot #003",
+		t	=	24118.239,
+		initiatorMissionID	=	"34",
+		targetMissionID	=	"386",
+	}, -- end of [97]
+	[98] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #33",
+		t	=	24118.959,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"33",
+	}, -- end of [98]
+	[99] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #34",
+		t	=	24119.138,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"34",
+	}, -- end of [99]
+	[100] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #36",
+		target	=	"Pilot #003",
+		t	=	24121.365,
+		initiatorMissionID	=	"36",
+		targetMissionID	=	"386",
+	}, -- end of [100]
+	[101] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #35",
+		target	=	"Pilot #003",
+		t	=	24121.84,
+		initiatorMissionID	=	"35",
+		targetMissionID	=	"386",
+	}, -- end of [101]
+	[102] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #36",
+		t	=	24122.291,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"36",
+	}, -- end of [102]
+	[103] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #35",
+		t	=	24122.732,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"35",
+	}, -- end of [103]
+	[104] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #33",
+		target	=	"Pilot #003",
+		t	=	24122.885,
+		initiatorMissionID	=	"33",
+		targetMissionID	=	"386",
+	}, -- end of [104]
+	[105] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #34",
+		target	=	"Pilot #003",
+		t	=	24122.988,
+		initiatorMissionID	=	"34",
+		targetMissionID	=	"386",
+	}, -- end of [105]
+	[106] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #33",
+		t	=	24123.478,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"33",
+	}, -- end of [106]
+	[107] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #37",
+		target	=	"Pilot #003",
+		t	=	24123.56,
+		initiatorMissionID	=	"37",
+		targetMissionID	=	"386",
+	}, -- end of [107]
+	[108] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #34",
+		t	=	24123.891,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"34",
+	}, -- end of [108]
+	[109] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #39",
+		target	=	"Pilot #003",
+		t	=	24124.057,
+		initiatorMissionID	=	"39",
+		targetMissionID	=	"386",
+	}, -- end of [109]
+	[110] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #40",
+		target	=	"Pilot #003",
+		t	=	24124.099,
+		initiatorMissionID	=	"40",
+		targetMissionID	=	"386",
+	}, -- end of [110]
+	[111] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #37",
+		t	=	24124.172,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"37",
+	}, -- end of [111]
+	[112] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #38",
+		target	=	"Pilot #003",
+		t	=	24124.228,
+		initiatorMissionID	=	"38",
+		targetMissionID	=	"386",
+	}, -- end of [112]
+	[113] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #39",
+		t	=	24124.965,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"39",
+	}, -- end of [113]
+	[114] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #40",
+		t	=	24124.997,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"40",
+	}, -- end of [114]
+	[115] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #38",
+		t	=	24125.126,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"38",
+	}, -- end of [115]
+	[116] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #37",
+		target	=	"Pilot #003",
+		t	=	24129.071,
+		initiatorMissionID	=	"37",
+		targetMissionID	=	"386",
+	}, -- end of [116]
+	[117] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #39",
+		target	=	"Pilot #003",
+		t	=	24129.535,
+		initiatorMissionID	=	"39",
+		targetMissionID	=	"386",
+	}, -- end of [117]
+	[118] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #37",
+		t	=	24129.966,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"37",
+	}, -- end of [118]
+	[119] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #39",
+		t	=	24130.444,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"39",
+	}, -- end of [119]
+	[120] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #40",
+		target	=	"Pilot #003",
+		t	=	24133.028,
+		initiatorMissionID	=	"40",
+		targetMissionID	=	"386",
+	}, -- end of [120]
+	[121] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #38",
+		target	=	"Pilot #003",
+		t	=	24133.307,
+		initiatorMissionID	=	"38",
+		targetMissionID	=	"386",
+	}, -- end of [121]
+	[122] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #40",
+		t	=	24133.918,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"40",
+	}, -- end of [122]
+	[123] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #37",
+		target	=	"Pilot #003",
+		t	=	24133.985,
+		initiatorMissionID	=	"37",
+		targetMissionID	=	"386",
+	}, -- end of [123]
+	[124] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #39",
+		target	=	"Pilot #003",
+		t	=	24134.546,
+		initiatorMissionID	=	"39",
+		targetMissionID	=	"386",
+	}, -- end of [124]
+	[125] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #38",
+		t	=	24134.827,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"38",
+	}, -- end of [125]
+	[126] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #37",
+		t	=	24134.872,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"37",
+	}, -- end of [126]
+	[127] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #39",
+		t	=	24136.055,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"39",
+	}, -- end of [127]
+	[128] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #40",
+		target	=	"Pilot #003",
+		t	=	24137.489,
+		initiatorMissionID	=	"40",
+		targetMissionID	=	"386",
+	}, -- end of [128]
+	[129] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #197",
+		target	=	"Pilot #003",
+		t	=	24138.032,
+		initiatorMissionID	=	"310",
+		targetMissionID	=	"386",
+	}, -- end of [129]
+	[130] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #40",
+		t	=	24138.412,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"40",
+	}, -- end of [130]
+	[131] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #197",
+		t	=	24138.927,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"310",
+	}, -- end of [131]
+	[132] = 
+	{
+		type	=	"shot",
+		initiator	=	"Pilot #003",
+		t	=	24287.494,
+		weapon	=	"AGM-65H Maverick",
+		initiatorMissionID	=	"386",
+	}, -- end of [132]
+	[133] = 
+	{
+		type	=	"shot",
+		initiator	=	"Pilot #003",
+		t	=	24296.123,
+		weapon	=	"AGM-65H Maverick",
+		initiatorMissionID	=	"386",
+	}, -- end of [133]
+	[134] = 
+	{
+		type	=	"hit",
+		weapon	=	"AGM-65H Maverick",
+		initiator	=	"Pilot #003",
+		target	=	"Unit #158",
+		t	=	24302.35,
+		initiatorMissionID	=	"386",
+		targetMissionID	=	"272",
+	}, -- end of [134]
+	[135] = 
+	{
+		type	=	"dead",
+		t	=	24302.35,
+		initiatorMissionID	=	"272",
+		initiator	=	"Unit #158",
+	}, -- end of [135]
+	[136] = 
+	{
+		type	=	"hit",
+		weapon	=	"AGM-65H Maverick",
+		initiator	=	"Pilot #003",
+		target	=	"Unit #156",
+		t	=	24306.279,
+		initiatorMissionID	=	"386",
+		targetMissionID	=	"270",
+	}, -- end of [136]
+	[137] = 
+	{
+		type	=	"dead",
+		t	=	24306.279,
+		initiatorMissionID	=	"270",
+		initiator	=	"Unit #156",
+	}, -- end of [137]
+	[138] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #40",
+		target	=	"Pilot #003",
+		t	=	24351.937,
+		initiatorMissionID	=	"40",
+		targetMissionID	=	"386",
+	}, -- end of [138]
+	[139] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #39",
+		target	=	"Pilot #003",
+		t	=	24351.978,
+		initiatorMissionID	=	"39",
+		targetMissionID	=	"386",
+	}, -- end of [139]
+	[140] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #38",
+		target	=	"Pilot #003",
+		t	=	24352.346,
+		initiatorMissionID	=	"38",
+		targetMissionID	=	"386",
+	}, -- end of [140]
+	[141] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #37",
+		target	=	"Pilot #003",
+		t	=	24352.441,
+		initiatorMissionID	=	"37",
+		targetMissionID	=	"386",
+	}, -- end of [141]
+	[142] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #40",
+		t	=	24352.836,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"40",
+	}, -- end of [142]
+	[143] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #39",
+		t	=	24352.876,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"39",
+	}, -- end of [143]
+	[144] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #38",
+		t	=	24353.243,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"38",
+	}, -- end of [144]
+	[145] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #37",
+		t	=	24353.328,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"37",
+	}, -- end of [145]
+	[146] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #33",
+		target	=	"Pilot #003",
+		t	=	24355.691,
+		initiatorMissionID	=	"33",
+		targetMissionID	=	"386",
+	}, -- end of [146]
+	[147] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #36",
+		target	=	"Pilot #003",
+		t	=	24355.861,
+		initiatorMissionID	=	"36",
+		targetMissionID	=	"386",
+	}, -- end of [147]
+	[148] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #33",
+		t	=	24356.292,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"33",
+	}, -- end of [148]
+	[149] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #36",
+		t	=	24356.759,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"36",
+	}, -- end of [149]
+	[150] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #35",
+		target	=	"Pilot #003",
+		t	=	24356.817,
+		initiatorMissionID	=	"35",
+		targetMissionID	=	"386",
+	}, -- end of [150]
+	[151] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #35",
+		t	=	24357.731,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"35",
+	}, -- end of [151]
+	[152] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #34",
+		target	=	"Pilot #003",
+		t	=	24360.038,
+		initiatorMissionID	=	"34",
+		targetMissionID	=	"386",
+	}, -- end of [152]
+	[153] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #34",
+		t	=	24360.938,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"34",
+	}, -- end of [153]
+	[154] = 
+	{
+		type	=	"start shooting",
+		initiator	=	"Pilot #003",
+		t	=	24423.28,
+		weapon	=	"GAU_8",
+		initiatorMissionID	=	"386",
+	}, -- end of [154]
+	[155] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Pilot #003",
+		t	=	24424.255,
+		weapon	=	"GAU_8",
+		initiatorMissionID	=	"386",
+	}, -- end of [155]
+	[156] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #35",
+		target	=	"Pilot #003",
+		t	=	24426.64,
+		initiatorMissionID	=	"35",
+		targetMissionID	=	"386",
+	}, -- end of [156]
+	[157] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #33",
+		target	=	"Pilot #003",
+		t	=	24426.806,
+		initiatorMissionID	=	"33",
+		targetMissionID	=	"386",
+	}, -- end of [157]
+	[158] = 
+	{
+		type	=	"hit",
+		initiator	=	"Pilot #003",
+		target	=	"Unit #50",
+		t	=	24427.305,
+		initiatorMissionID	=	"386",
+		targetMissionID	=	"50",
+	}, -- end of [158]
+	[159] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #35",
+		t	=	24427.547,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"35",
+	}, -- end of [159]
+	[160] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #33",
+		t	=	24427.713,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"33",
+	}, -- end of [160]
+	[161] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #36",
+		target	=	"Pilot #003",
+		t	=	24428.772,
+		initiatorMissionID	=	"36",
+		targetMissionID	=	"386",
+	}, -- end of [161]
+	[162] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #36",
+		t	=	24429.658,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"36",
+	}, -- end of [162]
+	[163] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #34",
+		target	=	"Pilot #003",
+		t	=	24431.657,
+		initiatorMissionID	=	"34",
+		targetMissionID	=	"386",
+	}, -- end of [163]
+	[164] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #33",
+		target	=	"Pilot #003",
+		t	=	24432.128,
+		initiatorMissionID	=	"33",
+		targetMissionID	=	"386",
+	}, -- end of [164]
+	[165] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #35",
+		target	=	"Pilot #003",
+		t	=	24432.17,
+		initiatorMissionID	=	"35",
+		targetMissionID	=	"386",
+	}, -- end of [165]
+	[166] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #34",
+		t	=	24432.563,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"34",
+	}, -- end of [166]
+	[167] = 
+	{
+		type	=	"start shooting",
+		initiator	=	"Pilot #003",
+		t	=	24433.06,
+		weapon	=	"GAU_8",
+		initiatorMissionID	=	"386",
+	}, -- end of [167]
+	[168] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #35",
+		t	=	24433.071,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"35",
+	}, -- end of [168]
+	[169] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Pilot #003",
+		t	=	24433.51,
+		weapon	=	"GAU_8",
+		initiatorMissionID	=	"386",
+	}, -- end of [169]
+	[170] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #33",
+		t	=	24433.62,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"33",
+	}, -- end of [170]
+	[171] = 
+	{
+		type	=	"start shooting",
+		initiator	=	"Pilot #003",
+		t	=	24433.68,
+		weapon	=	"GAU_8",
+		initiatorMissionID	=	"386",
+	}, -- end of [171]
+	[172] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #36",
+		target	=	"Pilot #003",
+		t	=	24433.811,
+		initiatorMissionID	=	"36",
+		targetMissionID	=	"386",
+	}, -- end of [172]
+	[173] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Pilot #003",
+		t	=	24434.025,
+		weapon	=	"GAU_8",
+		initiatorMissionID	=	"386",
+	}, -- end of [173]
+	[174] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #36",
+		t	=	24435.273,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"36",
+	}, -- end of [174]
+	[175] = 
+	{
+		type	=	"start shooting",
+		initiator	=	"Pilot #003",
+		t	=	24435.44,
+		weapon	=	"GAU_8",
+		initiatorMissionID	=	"386",
+	}, -- end of [175]
+	[176] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Pilot #003",
+		t	=	24435.845,
+		weapon	=	"GAU_8",
+		initiatorMissionID	=	"386",
+	}, -- end of [176]
+	[177] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #34",
+		target	=	"Pilot #003",
+		t	=	24435.9,
+		initiatorMissionID	=	"34",
+		targetMissionID	=	"386",
+	}, -- end of [177]
+	[178] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #35",
+		target	=	"Pilot #003",
+		t	=	24436.152,
+		initiatorMissionID	=	"35",
+		targetMissionID	=	"386",
+	}, -- end of [178]
+	[179] = 
+	{
+		type	=	"hit",
+		weapon	=	"25mm HE",
+		initiator	=	"Unit #35",
+		target	=	"Pilot #003",
+		t	=	24436.753,
+		initiatorMissionID	=	"35",
+		targetMissionID	=	"386",
+	}, -- end of [179]
+	[180] = 
+	{
+		type	=	"hit",
+		weapon	=	"25mm HE",
+		initiator	=	"Unit #35",
+		target	=	"Pilot #003",
+		t	=	24436.753,
+		initiatorMissionID	=	"35",
+		targetMissionID	=	"386",
+	}, -- end of [180]
+	[181] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #33",
+		target	=	"Pilot #003",
+		t	=	24436.94,
+		initiatorMissionID	=	"33",
+		targetMissionID	=	"386",
+	}, -- end of [181]
+	[182] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #34",
+		t	=	24437.374,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"34",
+	}, -- end of [182]
+	[183] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #35",
+		t	=	24437.638,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"35",
+	}, -- end of [183]
+	[184] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #33",
+		t	=	24438.731,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"33",
+	}, -- end of [184]
+	[185] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #35",
+		target	=	"Pilot #003",
+		t	=	24442.637,
+		initiatorMissionID	=	"35",
+		targetMissionID	=	"386",
+	}, -- end of [185]
+	[186] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #36",
+		target	=	"Pilot #003",
+		t	=	24442.761,
+		initiatorMissionID	=	"36",
+		targetMissionID	=	"386",
+	}, -- end of [186]
+	[187] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #34",
+		target	=	"Pilot #003",
+		t	=	24442.786,
+		initiatorMissionID	=	"34",
+		targetMissionID	=	"386",
+	}, -- end of [187]
+	[188] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #33",
+		target	=	"Pilot #003",
+		t	=	24442.895,
+		initiatorMissionID	=	"33",
+		targetMissionID	=	"386",
+	}, -- end of [188]
+	[189] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #35",
+		t	=	24444.156,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"35",
+	}, -- end of [189]
+	[190] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #36",
+		t	=	24444.268,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"36",
+	}, -- end of [190]
+	[191] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #34",
+		t	=	24444.278,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"34",
+	}, -- end of [191]
+	[192] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #33",
+		t	=	24444.401,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"33",
+	}, -- end of [192]
+	[193] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #35",
+		target	=	"Pilot #003",
+		t	=	24445.963,
+		initiatorMissionID	=	"35",
+		targetMissionID	=	"386",
+	}, -- end of [193]
+	[194] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #34",
+		target	=	"Pilot #003",
+		t	=	24446.074,
+		initiatorMissionID	=	"34",
+		targetMissionID	=	"386",
+	}, -- end of [194]
+	[195] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #33",
+		target	=	"Pilot #003",
+		t	=	24446.147,
+		initiatorMissionID	=	"33",
+		targetMissionID	=	"386",
+	}, -- end of [195]
+	[196] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #36",
+		target	=	"Pilot #003",
+		t	=	24446.236,
+		initiatorMissionID	=	"36",
+		targetMissionID	=	"386",
+	}, -- end of [196]
+	[197] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #35",
+		t	=	24447.47,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"35",
+	}, -- end of [197]
+	[198] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #34",
+		t	=	24447.578,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"34",
+	}, -- end of [198]
+	[199] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #33",
+		t	=	24447.65,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"33",
+	}, -- end of [199]
+	[200] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #36",
+		t	=	24447.741,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"36",
+	}, -- end of [200]
+	[201] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #36",
+		target	=	"Pilot #003",
+		t	=	24449.964,
+		initiatorMissionID	=	"36",
+		targetMissionID	=	"386",
+	}, -- end of [201]
+	[202] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #35",
+		target	=	"Pilot #003",
+		t	=	24450.239,
+		initiatorMissionID	=	"35",
+		targetMissionID	=	"386",
+	}, -- end of [202]
+	[203] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #34",
+		target	=	"Pilot #003",
+		t	=	24450.292,
+		initiatorMissionID	=	"34",
+		targetMissionID	=	"386",
+	}, -- end of [203]
+	[204] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #33",
+		target	=	"Pilot #003",
+		t	=	24450.368,
+		initiatorMissionID	=	"33",
+		targetMissionID	=	"386",
+	}, -- end of [204]
+	[205] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #36",
+		t	=	24450.882,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"36",
+	}, -- end of [205]
+	[206] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #34",
+		t	=	24451.196,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"34",
+	}, -- end of [206]
+	[207] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #33",
+		t	=	24451.264,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"33",
+	}, -- end of [207]
+	[208] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #35",
+		t	=	24451.736,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"35",
+	}, -- end of [208]
+	[209] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #36",
+		target	=	"Pilot #003",
+		t	=	24454.364,
+		initiatorMissionID	=	"36",
+		targetMissionID	=	"386",
+	}, -- end of [209]
+	[210] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #33",
+		target	=	"Pilot #003",
+		t	=	24454.644,
+		initiatorMissionID	=	"33",
+		targetMissionID	=	"386",
+	}, -- end of [210]
+	[211] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #34",
+		target	=	"Pilot #003",
+		t	=	24454.71,
+		initiatorMissionID	=	"34",
+		targetMissionID	=	"386",
+	}, -- end of [211]
+	[212] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"M242 'Bushmaster'",
+		initiator	=	"Unit #35",
+		target	=	"Pilot #003",
+		t	=	24455.072,
+		initiatorMissionID	=	"35",
+		targetMissionID	=	"386",
+	}, -- end of [212]
+	[213] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #36",
+		t	=	24455.263,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"36",
+	}, -- end of [213]
+	[214] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #33",
+		t	=	24455.54,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"33",
+	}, -- end of [214]
+	[215] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #34",
+		t	=	24455.619,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"34",
+	}, -- end of [215]
+	[216] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #35",
+		t	=	24455.967,
+		weapon	=	"M242 'Bushmaster'",
+		initiatorMissionID	=	"35",
+	}, -- end of [216]
+	[217] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"Mk.19",
+		initiator	=	"Unit #192",
+		target	=	"Pilot #003",
+		t	=	24538.019,
+		initiatorMissionID	=	"305",
+		targetMissionID	=	"386",
+	}, -- end of [217]
+	[218] = 
+	{
+		type	=	"shot",
+		initiator	=	"Unit #192",
+		t	=	24538.019,
+		weapon	=	"40mm HE",
+		initiatorMissionID	=	"305",
+	}, -- end of [218]
+	[219] = 
+	{
+		type	=	"shot",
+		initiator	=	"Unit #192",
+		t	=	24538.317,
+		weapon	=	"40mm HE",
+		initiatorMissionID	=	"305",
+	}, -- end of [219]
+	[220] = 
+	{
+		type	=	"shot",
+		initiator	=	"Unit #192",
+		t	=	24538.613,
+		weapon	=	"40mm HE",
+		initiatorMissionID	=	"305",
+	}, -- end of [220]
+	[221] = 
+	{
+		type	=	"shot",
+		initiator	=	"Unit #192",
+		t	=	24538.915,
+		weapon	=	"40mm HE",
+		initiatorMissionID	=	"305",
+	}, -- end of [221]
+	[222] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #192",
+		t	=	24538.915,
+		weapon	=	"Mk.19",
+		initiatorMissionID	=	"305",
+	}, -- end of [222]
+	[223] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"Mk.19",
+		initiator	=	"Unit #192",
+		target	=	"Pilot #003",
+		t	=	24544.652,
+		initiatorMissionID	=	"305",
+		targetMissionID	=	"386",
+	}, -- end of [223]
+	[224] = 
+	{
+		type	=	"shot",
+		initiator	=	"Unit #192",
+		t	=	24544.652,
+		weapon	=	"40mm HE",
+		initiatorMissionID	=	"305",
+	}, -- end of [224]
+	[225] = 
+	{
+		type	=	"shot",
+		initiator	=	"Unit #192",
+		t	=	24544.952,
+		weapon	=	"40mm HE",
+		initiatorMissionID	=	"305",
+	}, -- end of [225]
+	[226] = 
+	{
+		type	=	"shot",
+		initiator	=	"Unit #192",
+		t	=	24545.249,
+		weapon	=	"40mm HE",
+		initiatorMissionID	=	"305",
+	}, -- end of [226]
+	[227] = 
+	{
+		type	=	"shot",
+		initiator	=	"Unit #192",
+		t	=	24545.564,
+		weapon	=	"40mm HE",
+		initiatorMissionID	=	"305",
+	}, -- end of [227]
+	[228] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #192",
+		t	=	24545.564,
+		weapon	=	"Mk.19",
+		initiatorMissionID	=	"305",
+	}, -- end of [228]
+	[229] = 
+	{
+		type	=	"start shooting",
+		weapon	=	"Mk.19",
+		initiator	=	"Unit #192",
+		target	=	"Pilot #003",
+		t	=	24552.159,
+		initiatorMissionID	=	"305",
+		targetMissionID	=	"386",
+	}, -- end of [229]
+	[230] = 
+	{
+		type	=	"shot",
+		initiator	=	"Unit #192",
+		t	=	24552.159,
+		weapon	=	"40mm HE",
+		initiatorMissionID	=	"305",
+	}, -- end of [230]
+	[231] = 
+	{
+		type	=	"shot",
+		initiator	=	"Unit #192",
+		t	=	24552.46,
+		weapon	=	"40mm HE",
+		initiatorMissionID	=	"305",
+	}, -- end of [231]
+	[232] = 
+	{
+		type	=	"shot",
+		initiator	=	"Unit #192",
+		t	=	24552.764,
+		weapon	=	"40mm HE",
+		initiatorMissionID	=	"305",
+	}, -- end of [232]
+	[233] = 
+	{
+		type	=	"shot",
+		initiator	=	"Unit #192",
+		t	=	24553.075,
+		weapon	=	"40mm HE",
+		initiatorMissionID	=	"305",
+	}, -- end of [233]
+	[234] = 
+	{
+		type	=	"end shooting",
+		initiator	=	"Unit #192",
+		t	=	24553.075,
+		weapon	=	"Mk.19",
+		initiatorMissionID	=	"305",
+	}, -- end of [234]
+	[235] = 
+	{
+		type	=	"shot",
+		initiator	=	"Unit #197",
+		t	=	24576.735,
+		weapon	=	"BGM-71E TOW-2A",
+		initiatorMissionID	=	"310",
+	}, -- end of [235]
+	[236] = 
+	{
+		type	=	"shot",
+		initiator	=	"Unit #196",
+		t	=	24586.738,
+		weapon	=	"BGM-71E TOW-2A",
+		initiatorMissionID	=	"309",
+	}, -- end of [236]
+	[237] = 
+	{
+		type	=	"hit",
+		weapon	=	"BGM-71E TOW-2A",
+		initiator	=	"Unit #197",
+		target	=	"Pilot #003",
+		t	=	24588.175,
+		initiatorMissionID	=	"310",
+		targetMissionID	=	"386",
+	}, -- end of [237]
+	[238] = 
+	{
+		type	=	"hit",
+		weapon	=	"BGM-71E TOW-2A",
+		initiator	=	"Unit #197",
+		target	=	"Pilot #003",
+		t	=	24588.175,
+		initiatorMissionID	=	"310",
+		targetMissionID	=	"386",
+	}, -- end of [238]
+	[239] = 
+	{
+		type	=	"shot",
+		initiator	=	"Unit #195",
+		t	=	24597.392,
+		weapon	=	"BGM-71E TOW-2A",
+		initiatorMissionID	=	"308",
+	}, -- end of [239]
+	[240] = 
+	{
+		type	=	"shot",
+		initiator	=	"Unit #196",
+		t	=	24607.889,
+		weapon	=	"BGM-71E TOW-2A",
+		initiatorMissionID	=	"309",
+	}, -- end of [240]
+	[241] = 
+	{
+		type	=	"shot",
+		initiator	=	"Unit #197",
+		t	=	24618.267,
+		weapon	=	"BGM-71E TOW-2A",
+		initiatorMissionID	=	"310",
+	}, -- end of [241]
+	[242] = 
+	{
+		type	=	"eject",
+		t	=	24618.425,
+		initiatorMissionID	=	"386",
+		initiator	=	"Pilot #003",
+	}, -- end of [242]
+	[243] = 
+	{
+		type	=	"hit",
+		weapon	=	"BGM-71E TOW-2A",
+		initiator	=	"Unit #196",
+		target	=	"Pilot #003",
+		t	=	24619.169,
+		initiatorMissionID	=	"309",
+		targetMissionID	=	"386",
+	}, -- end of [243]
+	[244] = 
+	{
+		type	=	"hit",
+		weapon	=	"BGM-71E TOW-2A",
+		initiator	=	"Unit #196",
+		target	=	"Pilot #003",
+		t	=	24619.169,
+		initiatorMissionID	=	"309",
+		targetMissionID	=	"386",
+	}, -- end of [244]
+	[245] = 
+	{
+		type	=	"shot",
+		initiator	=	"Unit #200",
+		t	=	24628.228,
+		weapon	=	"BGM-71E TOW-2A",
+		initiatorMissionID	=	"313",
+	}, -- end of [245]
+	[246] = 
+	{
+		type	=	"hit",
+		weapon	=	"BGM-71E TOW-2A",
+		initiator	=	"Unit #197",
+		target	=	"Pilot #003",
+		t	=	24629.747,
+		initiatorMissionID	=	"310",
+		targetMissionID	=	"386",
+	}, -- end of [246]
+	[247] = 
+	{
+		type	=	"hit",
+		weapon	=	"BGM-71E TOW-2A",
+		initiator	=	"Unit #197",
+		target	=	"Pilot #003",
+		t	=	24629.747,
+		initiatorMissionID	=	"310",
+		targetMissionID	=	"386",
+	}, -- end of [247]
+	[248] = 
+	{
+		type	=	"relinquished",
+		initiatorPilotName	=	"PLAYER",
+		target	=	"Pilot #003",
+		t	=	24747.133,
+		targetMissionID	=	"386",
+	}, -- end of [248]
+	[249] = 
+	{
+		type	=	"relinquished",
+		initiatorPilotName	=	"PLAYER",
+		target	=	"Pilot #003",
+		t	=	24747.207,
+		targetMissionID	=	"386",
+	}, -- end of [249]
+	[250] = 
+	{
+		type	=	"mission end",
+		t	=	24747.207,
+	}, -- end of [250]
+} -- end of events
+result	=	0
+callsign	=	"New callsign"
