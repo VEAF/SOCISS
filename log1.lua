@@ -22,9 +22,9 @@ misStats["5769612bc2f613e7442c8bd446e3406d"]["id"] = 12
 misStats["5769612bc2f613e7442c8bd446e3406d"]["times"] = { }
 misStats["5769612bc2f613e7442c8bd446e3406d"]["weapons"] = { }
 misStats["5769612bc2f613e7442c8bd446e3406d"]["kills"] = { }
-misStats["5769612bc2f613e7442c8bd446e3406d"]["kills"]["Ground Units"] = { ["Arty/MLRS"] = 0, ["SAM"] = 0, ["Unarmored"] = 0, ["IFVs"] = 0, ["AAA"] = 0, ["total"] = 0, ["Other"] = 0, ["EWR"] = 0, ["Tanks"] = 0, ["APCs"] = 0, ["Forts"] = 0, ["Infantry"] = 0, }
+misStats["5769612bc2f613e7442c8bd446e3406d"]["kills"]["Ground Units"] = { ["Arty/MLRS"] = 1, ["SAM"] = 0, ["Unarmored"] = 0, ["IFVs"] = 0, ["AAA"] = 0, ["total"] = 0, ["Other"] = 0, ["EWR"] = 0, ["Tanks"] = 0, ["APCs"] = 0, ["Forts"] = 0, ["Infantry"] = 0, }
 misStats["5769612bc2f613e7442c8bd446e3406d"]["kills"]["Planes"] = { ["UAVs"] = 0, ["Fighters"] = 0, ["Bombers"] = 0, ["total"] = 0, ["Transports"] = 0, ["Other"] = 0, ["Support"] = 0, ["Attack"] = 0, }
-misStats["5769612bc2f613e7442c8bd446e3406d"]["kills"]["Helicopters"] = { ["Other"] = 0, ["total"] = 0, ["Utility"] = 0, ["Attack"] = 0, }
+misStats["5769612bc2f613e7442c8bd446e3406d"]["kills"]["Helicopters"] = { ["Other"] = 0, ["total"] = 5, ["Utility"] = 0, ["Attack"] = 0, }
 misStats["5769612bc2f613e7442c8bd446e3406d"]["kills"]["Ships"] = { ["Warships"] = 0, ["total"] = 0, ["Unarmed"] = 0, ["Subs"] = 0, ["Other"] = 0, }
 misStats["5769612bc2f613e7442c8bd446e3406d"]["kills"]["Buildings"] = { ["Other"] = 0, ["Static"] = 0, ["total"] = 0, }
 misStats["5769612bc2f613e7442c8bd446e3406d"]["friendlyKills"] = { }
@@ -32,7 +32,7 @@ misStats["5769612bc2f613e7442c8bd446e3406d"]["friendlyHits"] = { }
 misStats["5769612bc2f613e7442c8bd446e3406d"]["friendlyCollisionHits"] = { }
 misStats["5769612bc2f613e7442c8bd446e3406d"]["friendlyCollisionKills"] = { }
 misStats["5769612bc2f613e7442c8bd446e3406d"]["PvP"] = { ["losses"] = 0, ["kills"] = 0, }
-misStats["5769612bc2f613e7442c8bd446e3406d"]["losses"] = { ["pilotDeath"] = 0, ["crash"] = 0, ["eject"] = 0, }
+misStats["5769612bc2f613e7442c8bd446e3406d"]["losses"] = { ["pilotDeath"] = 0, ["crash"] = 0, ["eject"] = 2, }
 misStats["5769612bc2f613e7442c8bd446e3406d"]["times"]["A-10C"] = { ["inAir"] = 0, ["total"] = 0, }
 misStats["5769612bc2f613e7442c8bd446e3406d"]["times"]["A-10C"] = { ["inAir"] = 10.007, ["total"] = 10.007, }
 misStats["5769612bc2f613e7442c8bd446e3406d"]["times"]["A-10C"] = { ["inAir"] = 20.014, ["total"] = 20.014, }

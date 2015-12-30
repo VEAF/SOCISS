@@ -1,0 +1,41 @@
+# Requête de mise à jour BDD
+
+		commande = 'debriefMissionModel.findOneAndUpdate(query,';
+					commande = commande + '{ weapons: ' + nom_pilote + '["weapons"],';
+					  commande = commande + 'kills: ';
+					   commande = commande + '{ "Ground Units": ';
+						  commande = commande + '{ "Arty/MLRS": ' + nom_pilote + '["kills"]["Ground Units"]["Arty/MLRS"],';
+							commande = commande + 'SAM: ' + nom_pilote + '["kills"]["Ground Units"]["SAM"],';
+							commande = commande + 'Unarmored: ' + nom_pilote + '["kills"]["Ground Units"]["Unarmored"],';
+							commande = commande + 'IFVs: ' + nom_pilote + '["kills"]["Ground Units"]["IFVs"],';
+							commande = commande + 'AAA: ' + nom_pilote + '["kills"]["Ground Units"]["AAA"],';
+							commande = commande + 'total: ' + nom_pilote + '["kills"]["Ground Units"]["total"],';
+							commande = commande + 'Other: ' + nom_pilote + '["kills"]["Ground Units"]["Other"],';
+							commande = commande + 'EWR: ' + nom_pilote + '["kills"]["Ground Units"]["EWR"],';
+							commande = commande + 'Tanks: ' + nom_pilote + '["kills"]["Ground Units"]["Tanks"],';
+							commande = commande + 'APCs: ' + nom_pilote + '["kills"]["Ground Units"]["APCs"],';
+							commande = commande + 'Forts: ' + nom_pilote + '["kills"]["Ground Units"]["Forts"],';
+							commande = commande + 'Infantry: ' + nom_pilote + '["kills"]["Ground Units"]["Infantry"] },';
+						commande = commande + ' Planes: ';
+						commande = commande + '  { UAVs: ' + nom_pilote + '["kills"]["Planes"]["UAVs"],';
+							commande = commande + 'Fighters: ' + nom_pilote + '["kills"]["Planes"]["Fighters"],';
+							commande = commande + 'Bombers: ' + nom_pilote + '["kills"]["Planes"]["Bombers"],';
+							commande = commande + 'total: ' + nom_pilote + '["kills"]["Planes"]["total"],';
+							commande = commande + 'Transports: ' + nom_pilote + '["kills"]["Planes"]["Transports"],';
+							commande = commande + 'Other: ' + nom_pilote + '["kills"]["Planes"]["Other"],';
+							commande = commande + 'Support: ' + nom_pilote + '["kills"]["Planes"]["Support"],';
+							commande = commande + 'Attack: ' + nom_pilote + '["kills"]["Planes"]["Attack"] },';
+						 commande = commande + 'Helicopters: { Other: ' + nom_pilote + '["kills"]["Helicopters"]["Other"], total: ' + nom_pilote + '["kills"]["Helicopters"]["total"], Utility: ' + nom_pilote + '["kills"]["Helicopters"]["Utility"], Attack: ' + nom_pilote + '["kills"]["Helicopters"]["Attack"] },';
+						 commande = commande + 'Ships: { Warships: ' + nom_pilote + '["kills"]["Ships"]["Warships"], total: ' + nom_pilote + '["kills"]["Ships"]["total"], Unarmed: ' + nom_pilote + '["kills"]["Ships"]["Unarmed"], Subs: ' + nom_pilote + '["kills"]["Ships"]["Subs"], Other: ' + nom_pilote + '["kills"]["Ships"]["Other"] },';
+						 commande = commande + 'Buildings: { Other: ' + nom_pilote + '["kills"]["Buildings"]["Other"], Static: ' + nom_pilote + '["kills"]["Buildings"]["Static"], total: ' + nom_pilote + '["kills"]["Buildings"]["total"] } },';
+					  commande = commande + 'friendlyKills: ' + nom_pilote + '["friendlyKills"],';
+					  commande = commande + 'friendlyHits: ' + nom_pilote + '["friendlyHits"],';
+					  commande = commande + 'friendlyCollisionHits: ' + nom_pilote + '["friendlyCollisionHits"],';
+					  commande = commande + 'friendlyCollisionKills: ' + nom_pilote + '["friendlyCollisionKills"],';
+					  commande = commande + 'PvP: { losses: ' + nom_pilote + '["PvP"]["losses"], kills: ' + nom_pilote + '["PvP"]["kills"] },';
+					  commande = commande + 'losses: { pilotDeath: ' + nom_pilote + '["losses"]["pilotDeath"], crash: ' + nom_pilote + '["losses"]["crash"], eject: ' + nom_pilote + '["losses"]["eject"] } },';
+					commande = commande + 'function(err, doc){';
+						commande = commande + 'if (err) return console.log(err);';
+						commande = commande + 'return console.log("Mise à jour du document !");';
+		commande = commande + "})";
+

@@ -79,7 +79,7 @@ rd.on('line', function(line) {
     console.log(commande);
 	
 	var commande = "jlog = console.log("+nom_pilote+")";
-	eval(commande);
+	//eval(commande);
 });
 
 

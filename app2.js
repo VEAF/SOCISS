@@ -16,7 +16,7 @@ var fs = require('fs'),
 
 // Base de donnée
 var db = mongoose.connect("mongodb://localhost/socis");
-mongoose.connection.on('error', function() {
+mongoose.connection.on('error', function () {
   console.log('MongoDB Erreur de Connexion. Vérifiez que MongoDB est bien en fonctionnement.');
   process.exit(1);
 });
@@ -110,18 +110,23 @@ analyseFichier = function(req, res) {
 		    // création de l'objet du nom du pilote - à garder ?
 		    commande = nom_pilote + " = Object.create(Object.prototype)";
 		    eval(commande);
-		    return;
-		};
-
-		// Détection du nom du pilote en cours de débrief dans la ligne - ligne avec names
-		if (line.search("names") > -1) {
-			// on repère le nom du pilote
-		    pos_ref_1 = line.indexOf( '= "' );
-		    pos_ref_2 = line.indexOf( '", }' );
-		    nom_pilote = line.slice( pos_ref_1 + 3, pos_ref_2 );
-		    // création de l'objet du nom du pilote - à garder ?
-		    commande = nom_pilote + " = Object.create(Object.prototype)";
-		    eval(commande);
+            // C'est également le moment d'initialiser l'objet
+            eval(nom_pilote+'["id"] = "0"');
+            eval(nom_pilote+'["weapons"] = "0"');
+            //eval(nom_pilote+'["kills"] = "0"');
+            //eval(nom_pilote+'["kills"]["Ground Units"] = "0"');
+            eval(nom_pilote+'["kills"] = {"Ground Units" : { "Arty/MLRS" : "0", "SAM" : 0, "Unarmored" : 0, "IFVs" : 0, "AAA" : 0, "total" : 0, "Other" : 0, "EWR" : 0, "Tanks" : 0, "APCs" : 0, "Forts" : 0, "Infantry" : 0 }}');
+            eval(nom_pilote+'["kills"]["Planes"] = { "UAVs" : 0, "Fighters" : 0, "Bombers" : 0, "total" : 0, "Transports" : 0, "Other" : 0, "Support" : 0, "Attack" : 0 }');
+            eval(nom_pilote+'["kills"]["Helicopters"] = { "Other" : 0, "total" : 0, "Utility" : 0, "Attack" : 0 }');
+            eval(nom_pilote+'["kills"]["Ships"] = { "Warships" : 0, "total" : 0, "Unarmed" : 0, "Subs" : 0, "Other" : 0 }');
+            eval(nom_pilote+'["kills"]["Buildings"] = { "Other" : 0, "Static" : 0, "total" : 0 }');
+            eval(nom_pilote+'["friendlyKills"] = "0"');
+            eval(nom_pilote+'["friendlyHits"] = "0"');
+            eval(nom_pilote+'["friendlyCollisionHits"] = "0"');
+            eval(nom_pilote+'["friendlyCollisionKills"] = "0"');
+            eval(nom_pilote+'["PvP"] = { "losses" : 0, "kills" : 0 }');
+            eval(nom_pilote+'["losses"] = { "pilotDeath" : 0, "crash" : 0, "eject" : 0 }');
+            console.log(eval(nom_pilote));
 		    return;
 		};
 		
@@ -148,11 +153,13 @@ analyseFichier = function(req, res) {
 		partie_2 = partie_2.replace(/[=]+/g, ':');
 		// on nettoie les , qui trainent en fin de liste
 		partie_2 = partie_2.replace(', }', ' }');
+        // si c'est vide on passe à la ligne suivante - ca fait gagner du temps
+        if (partie_2 == "{ }") {return;};
 
 		// on execute la commande correspondant à la définition de l'élément d'objet du débrief pilote
 		var commande = partie_1 + " = " + partie_2;
-		eval(commande);
 		console.log(commande);
+		eval(commande);
 
 		// Détection de la ligne avec ID pour la création de l'entrée en BDD
 		if (line.search("id") > -1) {
@@ -165,6 +172,7 @@ analyseFichier = function(req, res) {
 			  if (err) { throw err; }
 			  console.log('Nouvelle entrée de débrief créée !');
 			});
+            
 		    return;
 		};
 
@@ -211,8 +219,8 @@ analyseFichier = function(req, res) {
 						commande = commande + 'if (err) return console.log(err);';
 						commande = commande + 'return console.log("Mise à jour du document !");';
 		commande = commande + "})";
-		console.log(commande);
 		eval(commande);
+        eval(nom_pilote);
 	});
 };
 
