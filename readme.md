@@ -1,5 +1,7 @@
 # SOCIS : Service d'Organisation et Calculs Inter-serveurs des Statistiques
 
+![Logo SOCIS](public/logo/socis_big_logo.png)
+
 ## Prérequis
 * MongoDB
 * Node.js
