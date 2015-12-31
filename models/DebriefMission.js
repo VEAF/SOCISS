@@ -7,6 +7,7 @@
 var mongoose = require('mongoose');
 
 var debriefMissionSchema = new mongoose.Schema({
+  name: [String],
   id: [Number],
   // type weapons à affiner - besoin d'exemples avec de la data sur ce champ
   weapons: [String],
@@ -46,8 +47,7 @@ var debriefMissionSchema = new mongoose.Schema({
   friendlyCollisionKills: [String],
   PvP: { losses: [Number], kills: [Number] },
   losses: { pilotDeath: [Number], crash: [Number], eject: [Number] } 
-}, { collection: 'SOCIS' } );
+});
 
-var debriefMissionModel = mongoose.model('debriefMission', debriefMissionSchema, 'SOCIS');
+module.exports = mongoose.model('DebriefMission', debriefMissionSchema, 'stats_SLmod_missions');
 
-module.exports = mongoose.model('DebriefMissionModel', debriefMissionModel);
