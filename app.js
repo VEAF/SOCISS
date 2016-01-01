@@ -61,6 +61,8 @@ var homeController = require('./controllers/home');
 // ----------------------------------
 // Clés API et paramétrage Passport
 // ----------------------------------
+var secrets = require('./config/secrets');
+var passportConf = require('./config/passport');
 
 
 // -----------------------------

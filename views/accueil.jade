@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  img(src='/logo/sociss_big_logo.png')
+  h1 Service d'Organisation et Calculs Inter-serveurs des Statistiques pour la Simulation.
+  p 
+  hr
+  .row
+    .col-sm-6
+      h2 Logs pilotes
+      p Consultez les logbooks des pilotes référencés dans notre base de donnée. Récupérez le lien de l'export JSON d'un pilote pour intégrer son logbook dans un site tierce.
+      p
+        a.btn.btn-default(href='#', role='button') Logs pilotes »
+    .col-sm-6
+      h2 Statistiques des serveurs
+      p Consultez les statistiques générales des serveurs qui alimentent notre SOCISS.
+      p
+        a.btn.btn-default(href='#', role='button') Stats serveurs »
