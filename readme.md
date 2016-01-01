@@ -1,4 +1,4 @@
-# SOCIS : Service d'Organisation et Calculs Inter-serveurs des Statistiques pour la Simulation
+# SOCISS : Service d'Organisation et Calculs Inter-serveurs des Statistiques pour la Simulation
 
 ![Logo SOCISS](public/logo/sociss_big_logo.png)
 
@@ -26,4 +26,4 @@ Contributeurs :
 * ...
 
 ## License
-SOCIS est mis à disposition sous license GNU General Public License v3 (GPL-3) (http://www.gnu.org/copyleft/gpl.html).
+SOCISS est mis à disposition sous license GNU General Public License v3 (GPL-3) (http://www.gnu.org/copyleft/gpl.html).
