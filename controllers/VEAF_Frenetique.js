@@ -1,3 +1,16 @@
+// =============================
+//
+// Controllers VEAF_Frenetique
+//
+// =============================
+
+// Librairies
+var mongoose = require("mongoose");
+
+// Models
+var debriefMissionModel = require('../models/DebriefMission');
+
+
 // =================================
 //
 // GET/
@@ -6,12 +19,13 @@
 // =================================
 
 exports.index = function(req, res) {
+  res.charset = "utf-8";
   // Définition de la requête pour les données que l'on souhaite agréger concernant le pilote
+  var query = {"name" : "VEAF_Frenetique"}
   // Execution de la requête
-  // Besoin d'une manip pour la rendre en JSON ?
-
-  res.render('VEAF_Frenetique', {
-    title: 'VEAF_Frenetique'
-    // contenu de la page = infos du pilote en JSON
+  debriefMissionModel.findOne(query, function (err, res){
+    if (err) return console.error(err);
+  }).lean().exec(function (err, pilot_data) {
+    return res.end(JSON.stringify(pilot_data));
   });
 };
