@@ -73,11 +73,9 @@ de mise à jour semble être de 10 secondes.
 
 Exemple d'un avion en vol:
 ```lua
-["times"]["M-2000C"] = { ["inAir"]
-= 30.002, ["total"] = 940.816, }
+["times"]["M-2000C"] = { ["inAir"] = 30.002, ["total"] = 940.816, }
 
-["times"]["M-2000C"] = { ["inAir"]
-= 40.002, ["total"] = 950.816, }
+["times"]["M-2000C"] = { ["inAir"] = 40.002, ["total"] = 950.816, }
 ```
 Exemple d'un avion au sol n'ayant pas encore décollé ou ayant atteri:
 ```lua
@@ -96,9 +94,7 @@ d'un Magic 2 sur M2000-C.
 Initialisation d'un armement (ici Magic 2) juste avant sa 1^ère^
 utilisation pour un joueur donné:
 ```lua
-["weapons"]["R-550 Magic 2"] = {
-["numHits"] = 0, ["kills"] = 0,
-["shot"] = 0, ["hit"] = 0, }
+["weapons"]["R-550 Magic 2"] = {["numHits"] = 0, ["kills"] = 0, ["shot"] = 0, ["hit"] = 0, }
 ```
 Après avoir tiré un Magic 2:
 ```lua
@@ -133,34 +129,20 @@ Exemples:
 
 Cibles terrestres
 ```lua
-["kills"]["Ground Units"] = {
-["Arty/MLRS"] = 0, ["SAM"] = 0,
-["Unarmored"] = 0, ["IFVs"] = 0,
-["AAA"] = 0, ["total"] = 0,
-["Other"] = 0, ["EWR"] = 0,
-["Tanks"] = 0, ["APCs"] = 0,
-["Forts"] = 0, ["Infantry"] = 0,
-}
+["kills"]["Ground Units"] = {["Arty/MLRS"] = 0, ["SAM"] = 0, ["Unarmored"] = 0, ["IFVs"] = 0, ["AAA"] = 0, ["total"] = 0,
+["Other"] = 0, ["EWR"] = 0, ["Tanks"] = 0, ["APCs"] = 0, ["Forts"] = 0, ["Infantry"] = 0, }
 ```
 Cibles aériennes, ailes fixes:
 ```lua
-["kills"]["Planes"] = { ["UAVs"] =
-0, ["Fighters"] = 0, ["Bombers"] =
-0, ["total"] = 0, ["Transports"] =
-0, ["Other"] = 0, ["Support"] =
-0, ["Attack"] = 0, }
+["kills"]["Planes"] = { ["UAVs"] = 0, ["Fighters"] = 0, ["Bombers"] = 0, ["total"] = 0, ["Transports"] = 0, ["Other"] = 0, ["Support"] = 0, ["Attack"] = 0, }
 ```
 Véhicules aériennes, ailes rotatives:
 ```lua
-["Helicopters"] = { ["Other"] = 0,
-["total"] = 0, ["Utility"] = 0,
-["Attack"] = 0, }
+["Helicopters"] = { ["Other"] = 0, ["total"] = 0, ["Utility"] = 0, ["Attack"] = 0, }
 ```
 Véhicules maritimes:
 ```lua
-["Ships"] = { ["Warships"] = 0,
-["total"] = 0, ["Unarmed"] = 0,
-["Subs"] = 0, ["Other"] = 0, }
+["Ships"] = { ["Warships"] = 0, ["total"] = 0, ["Unarmed"] = 0, ["Subs"] = 0, ["Other"] = 0, }
 ```
 Bâtiments:
 ```lua
@@ -183,9 +165,7 @@ sont stockés à la manière d'un tableau à plusieurs dimensions.
 Exemple d'un avion allié contrôlé par l'IA détruit par un joueur du même
 camp:
 ```lua
-["friendlyKills"][1] = { ["objCat"]
-= "plane", ["weapon"] = "R-550 Magic 2",
-["time"] = 1452097472, ["objTypeName"] =
+["friendlyKills"][1] = { ["objCat"] = "plane", ["weapon"] = "R-550 Magic 2", ["time"] = 1452097472, ["objTypeName"] =
 "S-3B Tanker", }
 ```
 On a donc l'indexage du kill fratricide (ici [1]), la catégorie ou
@@ -202,9 +182,7 @@ d'un tableau comme pour les "friendlyKills".
 
 Exemple d'un tir missile qui a atteint un tanker allié:
 ```lua
-["friendlyHits"][12] = { ["objCat"]
-= "plane", ["weapon"] = "R-550 Magic 2",
-["time"] = 1452097434, ["objTypeName"] =
+["friendlyHits"][12] = { ["objCat"] = "plane", ["weapon"] = "R-550 Magic 2", ["time"] = 1452097434, ["objTypeName"] =
 "S-3B Tanker", }
 ```
 La lecture est la suivante: le 12ème friendlyHits du joueur est sur un
@@ -213,11 +191,8 @@ un S-3B Tanker.
 
 Exemple d'un tir missile qui a atteint un joueur allié:
 ```lua
-["friendlyHits"][1] = { ["time"] =
-1452094948, ["objCat"] = "plane",
-["human"] = "64x2630xx29584x77xx0x49x583a3xxx",
-["weapon"] = "R-550 Magic 2",
-["objTypeName"] = "M-2000C", }
+["friendlyHits"][1] = { ["time"] = 1452094948, ["objCat"] = "plane", ["human"] = "64x2630xx29584x77xx0x49x583a3xxx",
+["weapon"] = "R-550 Magic 2", ["objTypeName"] = "M-2000C", }
 ```
 Cette fois un champ "human" avec son ID unique (un fake pour l'exemple)
 est present.
