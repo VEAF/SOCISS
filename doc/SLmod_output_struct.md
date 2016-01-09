@@ -51,7 +51,9 @@ chaque nom est indexé.
 
 Exemple:
 
-\["names"\] = { \[1\] = "Komodo", }
+```lua
+["names"] = { [1] = "Komodo", }
+```
 
 ####\["id"\]####
 
