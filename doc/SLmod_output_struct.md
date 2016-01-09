@@ -63,7 +63,7 @@ Exemple:
 
 \["id"\] = 9
 
-####\["times"\]#### 
+####\["times"\] ####
 
 Ce champ comprend un temps d'utilisation par appareil. Il fait aussi la
 distinction entre temps de vol et temps d'occupation total. La fréquence
