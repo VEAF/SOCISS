@@ -1,9 +1,10 @@
----
-title: SLmod Stats
-...
 
-Introduction {#introduction .ListParagraph}
-============
+SLmod Stats
+================
+
+
+Introduction 
+--------------
 
 Ce document tente de présenter la structure des données enregistrées par
 SLmod stats.
@@ -27,8 +28,8 @@ c'est en gros la **chronologie** des évènements liés aux joueurs.
 Le nombre d'entrées/champs des stats de SLmod est conséquent, leur
 présentation se fera donc par entrée/champs.
 
-Structures et entrées {#structures-et-entrées .ListParagraph}
-=====================
+Structures et entrées 
+-------------------------
 
 Le premier niveau inclue en premier lieu l'ID unique du joueur sous la
 forme d'une chaîne alphanumérique. Lors de la première connexion, son
@@ -42,8 +43,8 @@ Toutes les entrées sont illustrées sur la Figure 1
 Les entrées sont décrites dans les pages qui suivent.\
 A noter que tous les champs décrits sont liés à **un joueur**.
 
-\["names"\] {#names .ListParagraph .Souschapitre}
-===========
+####\["names"\] ####
+
 
 Cette entrée inclut les noms que le joueur possède sur le serveur,
 chaque nom est indexé.
@@ -52,8 +53,8 @@ Exemple:
 
 \["names"\] = { \[1\] = "Komodo", }
 
-\["id"\] {#id .ListParagraph .Souschapitre}
-========
+####\["id"\]####
+
 
 Un identifiant numérique, utilité inconnu, possiblement un id objet
 unique pour la mission en cours.
@@ -62,8 +63,7 @@ Exemple:
 
 \["id"\] = 9
 
-\["times"\] {#times .ListParagraph .Souschapitre}
-===========
+####\["times"\]#### 
 
 Ce champ comprend un temps d'utilisation par appareil. Il fait aussi la
 distinction entre temps de vol et temps d'occupation total. La fréquence
@@ -83,8 +83,8 @@ Exemple d'un avion au sol n'ayant pas encore décollé ou ayant atteri:
 
 **\[**"times"**\]\[**"M-2000C"**\]\[**"total"**\]** **=** 880.813
 
-\["weapons"\] {#weapons .ListParagraph .Souschapitre}
-=============
+####\["weapons"\] ####
+
 
 Le champ weapons inclut toutes les informations relatives à l'armement
 employé. Ce champ est branché par type d'armement et pour chacun de ces
@@ -112,8 +112,8 @@ présent.
 Note: seuls les champs "shot" ainsi que le type d'armement semblent être
 mis à jour pour le moment.
 
-\["kills"\] {#kills .ListParagraph .Souschapitre}
-===========
+####\["kills"\] ####
+
 
 Le champ "kills" est très vaste et est séparé en plusieurs catégories en
 fonction de la nature de la cible. Le champ est aussi initialisé pour un
@@ -171,8 +171,8 @@ ce joueur sera incrémenté.
 Note: Il semblerait que les frats ne soient pas pris en compte pour les
 kills. Il faudra vérifier si c'est le cas pour un kill de joueur.
 
- \["friendlyKills"\] {#friendlykills .ListParagraph .Souschapitre}
-====================
+#### \["friendlyKills"\] ####
+
 
 Ce champ est réservé pour tout tirs de type "Blue on Blue sur une IA
 (frat PVP non enregistré dans ce champ apparament). Les friendlyKills
@@ -191,8 +191,8 @@ nature de la cible, le type d'armement employé, l'heure de l'incident
 ainsi que le nom de la cible (son type). Ceci étant bien sûr lié à un
 joueur.
 
-\["friendlyHits"\] {#friendlyhits .ListParagraph .Souschapitre}
-==================
+####\["friendlyHits"\] ####
+
 
 Le champ "friendlyHits inclut tout les évènements ou un armement allié à
 toucher un autre allié, joueur ou non. Ils sont enregistrés à la manière
@@ -223,18 +223,18 @@ est present.
 Note: le cas d'un frat provenant d'une IA n'a pas été testé. Il faut
 encore interpréter le time correctement (format ?)
 
- \["friendlyCollisionHits"\] {#friendlycollisionhits .ListParagraph .Souschapitre}
-============================
+#### \["friendlyCollisionHits"\] ####
+
 
 Pas encore testé
 
-\["friendlyCollisionKills"\] {#friendlycollisionkills .ListParagraph .Souschapitre}
-============================
+####\["friendlyCollisionKills"\] ####
+
 
 Pas encore testé
 
-\["PvP"\] {#pvp .ListParagraph .Souschapitre}
-=========
+####\["PvP"\] ####
+
 
 Le champ "PvP" inclut 2 entrées: **\[**"losses"**\]** et
 **\[**"kills"**\]**
@@ -255,8 +255,8 @@ aircrafts &gt; Helicopters
 
 Note: ce champ n'a pas encore pu être testé/observé dans un log.
 
-\["losses"\] {#losses .ListParagraph .Souschapitre}
-============
+####\["losses"\] ####
+
 
 Le champ "losses" inclue les informations relatives à la perte d'un
 appareil par le joueur et au statut du pilote. Il contient 3 entrées:
@@ -276,6 +276,4 @@ Exemple de la mort du pilote:
 
 **\[**"losses"**\]\[**"pilotDeath"**\]** **=** 1
 
- {#section .ListParagraph}
 
- {#section-1 .ListParagraph}
