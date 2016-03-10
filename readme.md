@@ -5,25 +5,31 @@
 ## Prérequis
 * MongoDB
 * Node.js
-* Installer mongoose `npm install mongoose` (sera plus tard dans le package avec npm install)
+* Modules npm `npm install`
 
 ## Objet
 Récupérer et analyser des logs de missions produits par des serveurs de simulation, pour ensuite les servir en format JSON.
 
 ## Status
-Ca commence à fonctionner.
-Le log est analysé et une entrée en BDD est créée avec les éléments récupérés.
-Le code est réorganisé en architecture MVC.
-La prochaine étape va consister à mettre en place la partie serveur de données.
+Le suivi du développement est réalisé au travers de la plateforme taiga.io :
+[SOCISS sur taiga.io](https://tree.taiga.io/project/couby-sociss)
+
+Si vous souhaitez participer à ce développement, contacter @Couby40 via Twitter.
 
 ## Auteurs
 Cette application est développée par la [Virtual European Air Force](http://www.veaf.org).
 
+Développeur :
+* Frédéric *"Couby"* Coubard
+* ...
+
 Contributeurs :
 * Nicolas *"MagicBra"* Verriest
-* Frédéric *"Couby"* Coubard
 * *"Frenetique"*
 * ...
 
+Logo réalisé par Frédéric *"Couby"* Coubard, tous droits réservés.
+
 ## License
-SOCISS est mis à disposition sous license GNU General Public License v3 (GPL-3) (http://www.gnu.org/copyleft/gpl.html).
+Le code de notre SOCISS est mis à disposition sous license GNU General Public License v3 (GPL-3) (http://www.gnu.org/copyleft/gpl.html).
+
